@@ -1,3 +1,8 @@
+```
+cd 01
+go run main.go
+```
+
 # 参考
 https://pkg.go.dev/periph.io/x/conn/v3/gpio#PinIn
 
