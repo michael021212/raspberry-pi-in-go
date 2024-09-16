@@ -36,6 +36,8 @@ func main() {
 			
 			// Highの場合countを+1してログ出力
 			if level == gpio.High {
+				// チャタリング回避のため0.1秒待機する
+				time.Sleep(100 * time.Millisecond)
 				count++
 				fmt.Printf("Count: %d\n", count)
 				
